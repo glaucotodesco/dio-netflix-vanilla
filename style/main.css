@@ -34,17 +34,24 @@ header nav a {
     text-decoration: none;
     color: #aaa;
     margin-left: 10px;
-    margin-right: 10px;
 }
 
 header nav a:hover {
     color: white;
 }
 
+.container {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
 /* Main Movie */
 .main-movie {
     font-size: 16px;
-    background:  linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.5)100%),  url('https://www.themoviedb.org/t/p/original/uDsfvUyhtaQZcAkwDPrRgN3SxnX.jpg');
+    background:  linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.5)100%),  url('../img/capa-house.jpg');
+    background-size:  100%;
+    height: 400px;
+    background-repeat: no-repeat;
     height: 400px;
     background-size: cover;
     display: flex;
@@ -83,4 +90,14 @@ header nav a:hover {
 
 .button i {
     margin-right: 8px;
+}
+
+.main-movie .container {
+    width: 70%;
+}
+
+.movie-box{
+    height: 100%;
+    width: 100%;
+    display: block;
 }
